@@ -41,6 +41,7 @@ public class DbConnection {
         st.close();
     }
 
+
     public ArrayList<Question> getAllQuestionsRS(Connection con) throws SQLException {
         String query = "SELECT * FROM questions";
         Statement st = con.createStatement();

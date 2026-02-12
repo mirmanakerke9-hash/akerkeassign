@@ -55,6 +55,7 @@ public class Question {
                 Objects.equals(answer, question.answer);
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(id, text, answer);

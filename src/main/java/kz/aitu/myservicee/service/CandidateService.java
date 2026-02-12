@@ -10,6 +10,7 @@ import java.util.List;
 @Service
 public class CandidateService {
 
+
     @Autowired
     private CandidateJpa repo;
 

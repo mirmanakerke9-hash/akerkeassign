@@ -55,6 +55,7 @@ public class Exam {
                 Objects.equals(title, exam.title);
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(id, title, duration);

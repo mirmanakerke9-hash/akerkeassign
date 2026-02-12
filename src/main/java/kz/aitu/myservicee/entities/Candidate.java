@@ -7,6 +7,7 @@ import javax.annotation.processing.Generated;
 import java.lang.annotation.Repeatable;
 import java.util.Objects;
 
+
 @Entity
 @Table(name="candidates")
 public class Candidate {

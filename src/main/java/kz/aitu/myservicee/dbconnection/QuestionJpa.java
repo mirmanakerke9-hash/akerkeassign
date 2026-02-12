@@ -7,4 +7,5 @@ import org.springframework.stereotype.Repository;
 public interface QuestionJpa extends JpaRepository<Question, Long>{
 
 
+
 }

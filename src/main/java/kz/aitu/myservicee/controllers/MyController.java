@@ -115,6 +115,8 @@ public class MyController {
         return jsonData;
     }
 
+
+
     @GetMapping("/index/allExams")
     public String getAllExams() {
         DbConnection myConnection = new DbConnection();
